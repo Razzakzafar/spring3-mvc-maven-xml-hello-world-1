@@ -2,7 +2,7 @@ pipeline {
     agent any 
     tools {
         // Note: this should match with the tool name configured in your jenkins instance (JENKINS_URL/configureTools/)
-        jdk "JDK17"
+        jdk "jdk17"
         maven "MVN_HOME"
         
     }
